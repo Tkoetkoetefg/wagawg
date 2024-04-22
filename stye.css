@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+body {
+  width: 100%;
+  background: #d7c220;
+  color: rgb(44, 22, 22);
+}
+section {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container {
+  border-radius: 12px;
+  background-color: rgb(253, 253, 253);
+  width: 10%;
+  max-width: 500px;
+  padding: 50px 20px;
+  text-align: center;
+}
+.title {
+  font-size: 5px;
+  margin-bottom: 30px;
+}
+#otp-form {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  justify-content: center;
+}
+#otp-form input {
+  border: none;
+  background-color: #383a3a;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  width: 60%;
+  max-width: 50px;
+  height: 60px;
+  border-radius: 4px;
+  outline: 2px solid rgb(203, 196, 196);
+}
+.wpforms-limit-characters input{
+ 
+}
+#otp-form input:focus-visible {
+  outline: 2px solid rgb(225, 110, 65);
+}
+#otp-form input.filled {
+  outline: 2px solid rgb(7, 192, 99);
+}
+#verify-btn {
+  cursor: pointer;
+  display: inline-block;
+  width: 35%;
+  height: 60px;
+  margin-top: 30px;
+  background: #0211e9;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 4px;
+  font-size: 20px;
+  border: none;
+}
